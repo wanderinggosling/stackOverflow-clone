@@ -22,8 +22,8 @@ app.use('/answer',answerRoutes);
 
 const PORT = process.env.PORT || 5000
 
-// const CONNECTION_URL = "mongodb://127.0.0.1:27017/stack-overflow-clone"
-const CONNECTION_URL = "mongodb+srv://root:root@stack-overflow-clone.iqkg98o.mongodb.net/?retryWrites=true&w=majority"
+
+const CONNECTION_URL = "your mongodb connection url"
 
 
 
